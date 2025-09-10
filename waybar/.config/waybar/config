@@ -114,7 +114,7 @@
     },
 
     "temperature": {
-        "thermal-zone": 1,
+        "thermal-zone": 0,
         "format": "",
         "format-alt-click": "click-right",
         "format-alt": " {temperatureC}°C",
@@ -183,7 +183,6 @@
     },
 
     "custom/weather": {
-        //shows the current weather and forecast
         "tooltip" : true,
         "format" : "{}",
         "interval" : 3600,
@@ -214,7 +213,7 @@
     },
 
     "clock": {
-        "timezone": "Asia/Tehran",
+        "timezone": "Pacific/Honolulu",
         "format": "{: %H:%M}",
         "tooltip": true,
         "on-click": "setbg",
@@ -237,5 +236,4 @@
         "format-en": "EN",
         "format-jp": "JP"
    },
-
 }
