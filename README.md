@@ -1,5 +1,11 @@
 # How to use the dotfiles
 
+## Setup
+1. Create `.config` folder
+2. Install stow from homebrew
+3. From dotfiles folder, un-stow config for app, e.g. `stow aerospace`
+4. Confirm configuration is created inside `.config` folder
+
 ## Learn to stow
 1. Create folder for the app that needs a config
 2. Inside folder, create the same folder structure the app needs
