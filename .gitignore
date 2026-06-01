@@ -1,2 +1,5 @@
 .DS_store
 
+
+# tmux plugins are managed by TPM (prefix + I), not tracked here
+tmux/.tmux/plugins/
